@@ -17,7 +17,7 @@ print(s1&s2)
 print("Hello World")
 ```
 
-#求三數總和與平均
+# 求三數總和與平均
 ```
 fir = int(input('請輸入第一次期中考成績？'))
 sec = int(input('請輸入第二次期中考成績？'))

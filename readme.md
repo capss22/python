@@ -32,3 +32,27 @@ score = int(input('請輸入一個成績？'))
 if score >= 60:
     print('很好，請繼續保持下去')
 ```
+
+# 密碼強度
+```
+def check(pwd):
+    if pwd.isdigit():
+        if len(pwd) < 6:
+            return '不安全的密碼'
+        else:
+            return '可能是安全的密碼'
+    elif pwd.isalpha():
+        if len(pwd) < 6:
+            return '不安全的密碼'
+        else:
+            return '可能是安全的密碼'
+    elif len(pwd) < 6:
+        return '不安全的密碼'
+    elif len(pwd) < 10:
+        return '安全的密碼'
+    else:
+        return '非常安全的密碼'
+pwd = input('請輸入密碼？')
+sec = check(pwd)
+print(pwd, '為', sec)
+```

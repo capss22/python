@@ -26,3 +26,9 @@ sum = fir + sec + final
 avg = sum/3
 print('總分為', sum, '平均為', avg)
 ```
+# 及格
+```
+score = int(input('請輸入一個成績？'))
+if score >= 60:
+    print('很好，請繼續保持下去')
+```
